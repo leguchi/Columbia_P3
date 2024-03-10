@@ -55,7 +55,7 @@ body {
     display: none;
     opacity: 0%;
     transition: opacity 0.5s;
-    transition-delay: 0.5s;
+    /* transition-delay: 0.5s; */
     margin: 0;
     color: #402661;
     font-family: "Poppins", sans-serif;
@@ -95,7 +95,7 @@ body {
     display: none;
     opacity: 0%;
     transition: opacity 0.5s;
-    transition-delay: 0.5s;
+    /* transition-delay: 0.5s; */
     margin: 0;
     color: #402661;
     font-family: "Poppins", sans-serif;
@@ -144,7 +144,7 @@ body {
     display: none;
     opacity: 0%;
     transition: opacity 0.5s;
-    transition-delay: 0.5s;
+    /* transition-delay: 0.5s; */
     margin: 0;
     color: #402661;
     font-family: "Poppins", sans-serif;
@@ -209,9 +209,9 @@ body {
     justify-content: space-between;
 }
 
-.search .icon {
-    /* margin: 0 12px; */
-}
+/* .search .icon {
+    margin: 0 12px;
+} */
 
 .search input[type=text] {
     /* margin: 0 12px; */
@@ -271,6 +271,18 @@ body {
 .lang polygon {
     fill: #402661;
 }
+
+/* .vect {
+    transform: rotateX(0deg);
+}
+
+.transform {
+    transition: transform 0.5s;
+}
+
+.transform-active {
+    transform: rotateX(180deg);
+} */
 
 .login {
     background-color: #FFFFFF;
