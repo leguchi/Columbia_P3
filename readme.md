@@ -7,3 +7,5 @@ This does not have a `.gitignore`. Everything is included.
 **v1.0.1:** Changed margin for full page.
 
 **v1.0.2:** Changed search bar into `<input>`.
+
+**v1.0.3:** Updated buttons with their transitions.
