@@ -8,7 +8,7 @@ body {
     width: auto;
     height: 160px;
     /* padding: 24px 48px; */
-    margin: 24px 48px;
+    margin: 24px 96px;
     display: flex;
     justify-content: space-between;
 }
@@ -271,7 +271,7 @@ body {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
     gap: 24px;
-    padding: 48px;
+    padding: 48px 96px;
     /* background-color: #402661; */
 }
 
@@ -461,7 +461,7 @@ body {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
     gap: 24px;
-    padding: 48px;
+    padding: 48px 96px;
 }
 
 .footerContact {
