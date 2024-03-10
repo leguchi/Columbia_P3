@@ -198,18 +198,43 @@ body {
 
 .search {
     background-color: #FFFFFF;
-    width: 200px;
+    width: 264px;
     height: 56px;
     margin: 0 12px 0 0;
     border: 2px solid #402661;
     border-radius: 4px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
+    justify-content: space-between;
 }
 
 .search .icon {
-    margin: 0 12px;
+    /* margin: 0 12px; */
+}
+
+.search input[type=text] {
+    /* margin: 0 12px; */
+    width: 184px;
+    height: 56px;
+    color: #402661;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+    padding: 0 12px;
+}
+
+.search button {
+    /* float: right; */
+    padding: 6px 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #ddd;
+    height: 56px;
+    width: 56px;
 }
 
 .textOpacity {
